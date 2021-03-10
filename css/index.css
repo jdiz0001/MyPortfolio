@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url("https://use.typekit.net/qtw3clm.css");
+/* Navigation Bar */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #edf1ed;
+}
+
+nav {
+    position: static;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 5%;
+    height: 100px;
+}
+
+li, a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #24252A;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 30px 10%
+}
+
+.logo {
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+.nav__links {
+    float: right;
+    padding: 0;
+    margin: 10px;
+    width: 60%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin:0 0 10px 0;  
+}
+
+.nav__links li a {
+    display: block;
+    padding: 15px;
+    margin:0 0 10px 0;  
+}
+
+/* Body Section */
+
+h1 {
+    font-family: 'neue-haas-grotesk-text', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    padding: 10px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #24252A;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.block_element {
+    display: block;
+    width: 800px;
+    margin-left: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 35px;
+}
+
+
+/* Footer */
+
+
+
+button { 
+    padding: 9px 25px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+    font-family: 'neue-haas-grotesk-display', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin: 10px;
+}
+
+footer {
+    position: static;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 100px;
+    height: 100px;
+}
+
+.footer__links {
+    float: left;
+    padding: 0;
+    margin: 0px;
+    width: 60%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+.footer__links li {
+    display: inline-block;
+    padding: 0px 5px;
+    margin:0 0 5px 0;  
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer__links li a {
+    display: block;
+    padding: 10px;
+    margin:0 0 5px 0;  
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
